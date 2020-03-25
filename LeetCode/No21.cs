@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetCode.DataStructure;
+using System;
 
 namespace LeetCode
 {
