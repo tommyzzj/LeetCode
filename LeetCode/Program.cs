@@ -8,17 +8,12 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            //var test = new int[] {3, 2, 3};
-            var l1 = new ListNode(2);
-            var l2 = new ListNode(1);
-            var l3 = new ListNode(0);
+            int[] n1 = new int[] { 1, 1,1 };
+            int[] n2 = new int[] { 3, 2,5 };
 
-            l1.next = l2;
-            l2.next = l3;
-            var result = new NoLc06();
-            var a = result.ReversePrint(l1);
+            var result = new No70();
 
-            Console.WriteLine(result.ReversePrint(l1));
+            Console.WriteLine(result.ClimbStairs(5));
         }
     }
 }
