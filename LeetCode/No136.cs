@@ -3,22 +3,30 @@ namespace LeetCode
 {
     public class No136
     {
-        public int FindContentChildren(int[] g, int[] s)
+        public int SingleNumber(int[] nums)
         {
-            Array.Sort(g);
-            Array.Sort(s);
-            int index = s.Length - 1;
-            int count = 0;
-
-            for (int i = g.Length - 1; i >= 0; i--)
+            if (nums.Length != 1)
             {
-                if (index >= 0 && s[index] >= g[i])
+                Array.Sort(nums);
+                for (int i = 0; i < nums.Length; i++)
                 {
-                    count++;
-                    index--;
+                    if (i == nums.Length - 1)
+                    {
+                        return nums[i];
+                    }
+                    if (nums[i] == nums[i + 1])
+                    {
+                        i++;
+                        continue;
+                    }
+                    else
+                    {
+                        return nums[i];
+                    }
                 }
             }
-            return count;
+            
+            return nums[0];
         }
     }
 }

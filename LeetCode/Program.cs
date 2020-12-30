@@ -8,12 +8,12 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            int[] n1 = new int[] { 1, 1,1 };
-            int[] n2 = new int[] { 3, 2,5 };
+            int[] n1 = new int[] { 2, 2, 1 };
+            int[] n2 = new int[] { 0,4, 1, 2,0, 1, 2,3,5,5,3 };
 
-            var result = new No70();
+            var result = new No136();
 
-            Console.WriteLine(result.ClimbStairs(5));
+            Console.WriteLine(result.SingleNumber(n2));
         }
     }
 }
