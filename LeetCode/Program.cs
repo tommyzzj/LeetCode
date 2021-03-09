@@ -9,12 +9,11 @@ namespace LeetCode
         static void Main(string[] args)
         {
             int[] n1 = new int[] { 2, 2, 1 };
-            int[] n2 = new int[] { 0,4, 1, 2,0, 1, 2,3,5,5,3 };
-            int[] n3 = new int[] { 0};
+            int[] n2 = new int[] { 0, 4, 1, 2, 0, 1 };
+            int[] n3 = new int[] { 0 };
 
-            var result = new No136();
-
-            Console.WriteLine(result.SingleNumber(n3));
+            var result = new No283();
+            result.MoveZeroes(n2);
         }
     }
 }
