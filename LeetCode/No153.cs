@@ -1,12 +1,8 @@
-using System;
-using System.Linq;
-
 namespace LeetCode
 {
-    public class No154
+    public class No153
     {
-        public int FindMin(int[] nums)
-        {
+        public int FindMin(int[] nums) {
             int left = 0;
             int right = nums.Length - 1;
 
@@ -24,7 +20,7 @@ namespace LeetCode
                 }
             }
 
-            return nums[left];
+            return nums[right];
         }
     }
 }
