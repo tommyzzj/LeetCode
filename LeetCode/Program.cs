@@ -12,8 +12,8 @@ namespace LeetCode
             int[] n2 = new int[] { 0, 4, 1, 2, 0, 1 };
             int[] n3 = new int[] { 0 };
 
-            var result = new No1249();
-            var output = result.MinRemoveToMakeValid("((a)b)))))c)");
+            var result = new No168();
+            var output = result.ConvertToTitle(701);
             Console.WriteLine(output);
         }
     }

@@ -8,12 +8,23 @@ namespace LeetCode
     {
         public string LargestNumber(int[] nums)
         {
-            var stringBuilder = new StringBuilder();
-            foreach (var num in nums)
+            string[] ss = new string[nums.Length];
+            int i = 0;
+            foreach (int num in nums)
             {
-                stringBuilder.Append(num);
+                ss[i++] = "" + num;
             }
-            return stringBuilder.ToString();
+            Array.Sort(ss, (a, b) =>
+            {
+                string sa = a + b, sb = b + a;
+                return sb.CompareTo(sa);
+            });
+            StringBuilder sb = new StringBuilder();
+            foreach (string s in ss) sb.Append(s);
+            int len = sb.Length;
+            int k = 0;
+            while (k < len-1 && sb[k] == '0') k++;
+            return sb.ToString(k,len-k);
         }
     }
 }
