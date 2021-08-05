@@ -1,7 +1,7 @@
 ﻿using System;
 namespace LeetCode
 {
-    public class No283
+    public class No0283
     {
         public void MoveZeroes(int[] nums)
         {

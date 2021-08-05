@@ -1,7 +1,7 @@
 ﻿using System;
 namespace LeetCode
 {
-    public class No136
+    public class No0136
     {
         public int SingleNumber(int[] nums)
         {

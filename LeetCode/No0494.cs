@@ -1,6 +1,6 @@
 namespace LeetCode
 {
-    public class No494
+    public class No0494
     {
         int count = 0;
 

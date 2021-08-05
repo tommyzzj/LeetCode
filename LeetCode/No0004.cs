@@ -2,7 +2,7 @@
 using System.Linq;
 namespace LeetCode
 {
-    public class No4
+    public class No0004
     {
         public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {

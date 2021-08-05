@@ -4,7 +4,7 @@ using System.Runtime.InteropServices.ComTypes;
 
 namespace LeetCode
 {
-    class No20
+    class No0020
     {
         public bool IsValid(string s)
         {

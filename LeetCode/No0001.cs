@@ -5,7 +5,7 @@ using System.Data;
 
 namespace LeetCode
 {
-    internal class No1
+    internal class No0001
     {
         public int[] TwoSum(int[] nums, int target)
         {

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace LeetCode
+namespace LeetCode_Array
 {
     public class No1046
     {

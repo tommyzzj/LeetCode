@@ -1,6 +1,6 @@
 ﻿namespace LeetCode
 {
-    public class No509
+    public class No0509
     {
         public int Fib(int n)
         {

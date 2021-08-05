@@ -4,7 +4,7 @@ using LeetCode.DataStructure;
 
 namespace LeetCode
 {
-    public class No938
+    public class No0938
     {
         public int RangeSumBST(TreeNode root, int low, int high)
         {

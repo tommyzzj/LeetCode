@@ -2,14 +2,14 @@
 
 namespace LeetCode
 {
-    public class MyStack
+    public class No0225
     {
         private Queue<int> q1;
         private Queue<int> q2;
         private int top;
 
         /** Initialize your data structure here. */
-        public MyStack()
+        public No0225()
         {
             q1 = new Queue<int>();
             q2 = new Queue<int>();

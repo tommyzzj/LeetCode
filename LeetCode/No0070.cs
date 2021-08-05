@@ -1,7 +1,7 @@
 ﻿using System;
 namespace LeetCode
 {
-    public class No70
+    public class No0070
     {
         public int ClimbStairs(int n)
         {

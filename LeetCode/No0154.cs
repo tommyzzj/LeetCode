@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace LeetCode
 {
-    public class No154
+    public class No0154
     {
         public int FindMin(int[] nums)
         {

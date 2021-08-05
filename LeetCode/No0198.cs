@@ -2,7 +2,7 @@ using System;
 
 namespace LeetCode
 {
-    public class No198
+    public class No0198
     {
         public int Rob(int[] nums)
         {

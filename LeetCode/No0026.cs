@@ -2,7 +2,7 @@
 
 namespace LeetCode
 {
-    class No26
+    class No0026
     {
         public int RemoveDuplicates(int[] nums)
         {

@@ -2,7 +2,7 @@ using LeetCode.DataStructure;
 
 namespace LeetCode
 {
-    public class No933
+    public class No0933
     {
         // x 的信息
         int x;

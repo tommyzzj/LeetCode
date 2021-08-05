@@ -2,7 +2,7 @@ using System;
 
 namespace LeetCode
 {
-    public class No28
+    public class No0028
     {
         public int StrStr(string haystack, string needle)
         {

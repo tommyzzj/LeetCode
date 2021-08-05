@@ -3,7 +3,7 @@ using System;
 
 namespace LeetCode
 {
-    class No543
+    class No0543
     {
         int ans;
         public int DiameterOfBinaryTree(TreeNode root)

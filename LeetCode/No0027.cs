@@ -2,7 +2,7 @@ using System;
 
 namespace LeetCode
 {
-    public class No27
+    public class No0027
     {
         public int RemoveElement(int[] nums, int val)
         {

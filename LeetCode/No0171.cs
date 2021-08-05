@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LeetCode
 {
-    public class No171
+    public class No0171
     {
         public int TitleToNumber(string columnTitle)
         {

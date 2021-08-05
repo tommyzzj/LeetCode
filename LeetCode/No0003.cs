@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace LeetCode
 {
-    public class No3
+    public class No0003
     {
         public int LengthOfLongestSubstring(string s)
         {
