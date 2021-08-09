@@ -1,10 +1,13 @@
 ﻿using System;
+
 namespace LeetCode
 {
     public class No0136
     {
         public int SingleNumber(int[] nums)
         {
+            #region Solution 1
+
             if (nums.Length != 1)
             {
                 Array.Sort(nums);
@@ -14,6 +17,7 @@ namespace LeetCode
                     {
                         return nums[i];
                     }
+
                     if (nums[i] == nums[i + 1])
                     {
                         i++;
@@ -25,8 +29,14 @@ namespace LeetCode
                     }
                 }
             }
-            
+
             return -1;
+
+            #endregion
+
+            #region Solution 2
+
+            #endregion
         }
     }
 }
