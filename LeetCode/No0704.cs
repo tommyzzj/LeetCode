@@ -9,24 +9,22 @@ namespace LeetCode
         {
             int left = 0;
             int right = nums.Length - 1;
-            while (left <= right)
+            while (left < right)
             {
-                int middle = (left + right) / 2;
-                int mid = nums[middle];
-                if (mid == target)
+                int mid = (left + right) / 2;
+                if (nums[mid] == target)
                 {
-                    return middle;
+                    return mid;
                 }
-                if (mid > target)
+                if (nums[mid] > target)
                 {
-                    right = middle - 1;
+                    right = mid - 1;  // (0+5)/2 = 2 需要-1
                 }
-                else
+                if (nums[mid] < target)
                 {
-                    left = middle + 1;
+                    left = mid + 1; // (0+5)/2 = 2 需要+1
                 }
             }
-
             return -1;
         }
     }

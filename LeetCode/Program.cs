@@ -15,8 +15,8 @@ namespace LeetCode
             int[] n3 = new int[] { 0 };
             string test = "loveleetcode";
 
-            var result = new No0362();
-            var output = result.IsPowerOfThree(6);
+            var result = new No0704();
+            var output = result.Search(n704, 9);
             Console.WriteLine(output);
         }
     }
